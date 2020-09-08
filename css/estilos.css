@@ -8,6 +8,11 @@ header {
   background: #131921; }
   header .contenedor-logo-redes {
     padding: 10px 0; }
+    header .contenedor-logo-redes .logo img {
+      width: 60px; }
+    header .contenedor-logo-redes form .btn {
+      margin-left: -14px;
+      background: #F3A847; }
     header .contenedor-logo-redes .redes-sociales {
       font-size: 30px; }
       header .contenedor-logo-redes .redes-sociales a {
@@ -41,5 +46,16 @@ nav {
   nav a:hover {
     text-decoration: none;
     color: #ffffff; }
+
+@media (max-width: 728px) {
+  header .contenedor-logo-redes {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-items: center; }
+    header .contenedor-logo-redes .buscador form {
+      display: grid;
+      grid-template-columns: 90% 10%; }
+  header .container .redes-sociales {
+    display: none; } }
 
 /*# sourceMappingURL=estilos.css.map */
