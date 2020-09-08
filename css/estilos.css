@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+header {
+  padding: 10px 0;
+  background: #232f3e; }
+  header .redes-sociales {
+    font-size: 35px;
+    background: white; }
+    header .redes-sociales a {
+      display: inline-block; }
+      header .redes-sociales a.face {
+        color: #3b5998; }
+      header .redes-sociales a.you {
+        color: #ff0000; }
+      header .redes-sociales a.what {
+        color: #25d366; }
+
+/*# sourceMappingURL=estilos.css.map */
