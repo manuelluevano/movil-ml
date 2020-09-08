@@ -1,14 +1,33 @@
-@media (max-width: 728px)
+@media (max-width: 768px)
     header
         .contenedor-logo-redes
             display: grid
-            grid-template-columns: (20% 80%)
+            grid-template-columns: (20% 60% 20%)
+            
             justify-items: center
             .buscador
                 form
                     display: grid
                     grid-template-columns: (90% 10%)
-                        
+        
+        
+            
+
+@media (min-width: 768px)
+    header
+        /*Menu Movil*/
+        .menu-movil
+            display: none
+        .contenedor-logo-redes
+            display: grid
+            grid-template-columns: (20% 40% 40%)
+            justify-items: center
+            .buscador
+                form
+                    display: grid
+                    grid-template-columns: (90% 10%)
         .container
             .redes-sociales
-                display: none
+                display: block
+        nav
+            display: block!important

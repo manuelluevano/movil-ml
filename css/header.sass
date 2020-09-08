@@ -10,6 +10,7 @@ header
                 margin-left: -14px
                 background: #F3A847
         .redes-sociales
+            display: none
             font-size: 30px
             a
                 border-radius: 50%
@@ -32,12 +33,28 @@ header
                     color: #25d366
                 &.what:hover
                     background: #ffffffee
-nav
-    background: #232F3E
-    a
-        color: #ffffffd2
-        font-size: 18px
-        font-family: 'Roboto', sans-serif 
-    a:hover
-        text-decoration: none
-        color: #ffffff
+    /*Menu Movil*/
+    .menu-movil
+        width: 50px
+        display: block
+        float: right
+        text-align: right
+        margin-top: 5px
+        span
+            height: 8px
+            margin-bottom: 6px
+            background-color: #ffffff
+            display: block
+    .menu-movil:hover
+        cursor: pointer 
+    nav
+        display: none!important
+        background: #232F3E
+        a
+            color: #ffffffd2
+            font-size: 18px
+            font-family: 'Roboto', sans-serif
+            transition: all 5s ease 
+        a:hover
+            text-decoration: none
+            color: #ffffff

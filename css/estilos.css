@@ -5,7 +5,8 @@ html {
   box-sizing: inherit; }
 
 header {
-  background: #131921; }
+  background: #131921;
+  /*Menu Movil */ }
   header .contenedor-logo-redes {
     padding: 10px 0; }
     header .contenedor-logo-redes .logo img {
@@ -14,6 +15,7 @@ header {
       margin-left: -14px;
       background: #F3A847; }
     header .contenedor-logo-redes .redes-sociales {
+      display: none;
       font-size: 30px; }
       header .contenedor-logo-redes .redes-sociales a {
         border-radius: 50%;
@@ -36,26 +38,54 @@ header {
           color: #25d366; }
         header .contenedor-logo-redes .redes-sociales a.what:hover {
           background: #ffffffee; }
+  header .menu-movil {
+    width: 50px;
+    display: block;
+    float: right;
+    text-align: right;
+    margin-top: 5px; }
+    header .menu-movil span {
+      height: 8px;
+      margin-bottom: 6px;
+      background-color: #ffffff;
+      display: block; }
+  header .menu-movil:hover {
+    cursor: pointer; }
+  header nav {
+    display: none !important;
+    background: #232F3E; }
+    header nav a {
+      color: #ffffffd2;
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      transition: all 5s ease; }
+    header nav a:hover {
+      text-decoration: none;
+      color: #ffffff; }
 
-nav {
-  background: #232F3E; }
-  nav a {
-    color: #ffffffd2;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif; }
-  nav a:hover {
-    text-decoration: none;
-    color: #ffffff; }
-
-@media (max-width: 728px) {
+@media (max-width: 768px) {
   header .contenedor-logo-redes {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 20% 60% 20%;
     justify-items: center; }
     header .contenedor-logo-redes .buscador form {
       display: grid;
-      grid-template-columns: 90% 10%; }
-  header .container .redes-sociales {
-    display: none; } }
+      grid-template-columns: 90% 10%; } }
+@media (min-width: 768px) {
+  header {
+    /*Menu Movil */ }
+    header .menu-movil {
+      display: none; }
+    header .contenedor-logo-redes {
+      display: grid;
+      grid-template-columns: 20% 40% 40%;
+      justify-items: center; }
+      header .contenedor-logo-redes .buscador form {
+        display: grid;
+        grid-template-columns: 90% 10%; }
+    header .container .redes-sociales {
+      display: block; }
+    header nav {
+      display: block !important; } }
 
 /*# sourceMappingURL=estilos.css.map */
