@@ -5,23 +5,42 @@ html {
   box-sizing: inherit; }
 
 header {
-  background: #232f3e; }
+  background: #131921; }
   header .contenedor-logo-redes {
     padding: 10px 0; }
     header .contenedor-logo-redes .redes-sociales {
-      font-size: 35px;
-      background: white; }
+      font-size: 30px; }
       header .contenedor-logo-redes .redes-sociales a {
-        display: inline-block; }
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        line-height: 45px;
+        display: inline-block;
+        background: navy;
+        background: #ffffff;
+        margin-left: 1em; }
         header .contenedor-logo-redes .redes-sociales a.face {
           color: #3b5998; }
+        header .contenedor-logo-redes .redes-sociales a.face:hover {
+          background: #ffffffee; }
         header .contenedor-logo-redes .redes-sociales a.you {
           color: #ff0000; }
+        header .contenedor-logo-redes .redes-sociales a.you:hover {
+          background: #ffffffee; }
         header .contenedor-logo-redes .redes-sociales a.what {
           color: #25d366; }
+        header .contenedor-logo-redes .redes-sociales a.what:hover {
+          background: #ffffffee; }
 
-nav a {
-  color: white;
-  font-size: 18px; }
+nav {
+  background: #232F3E; }
+  nav a {
+    color: #ffffffd2;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif; }
+  nav a:hover {
+    text-decoration: none;
+    color: #ffffff; }
 
 /*# sourceMappingURL=estilos.css.map */
