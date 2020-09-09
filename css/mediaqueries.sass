@@ -3,7 +3,6 @@
         .contenedor-logo-redes
             display: grid
             grid-template-columns: (20% 60% 20%)
-            
             justify-items: center
             .buscador
                 form
@@ -29,5 +28,10 @@
         .container
             .redes-sociales
                 display: block
-        nav
-            display: block!important
+        nav 
+            .container
+                display: grid
+                grid-template-columns: repeat(3, 1fr)
+                a
+                    display: inline-block
+                    

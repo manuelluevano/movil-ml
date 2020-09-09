@@ -52,16 +52,43 @@ header {
   header .menu-movil:hover {
     cursor: pointer; }
   header nav {
-    display: none !important;
     background: #232F3E; }
     header nav a {
       color: #ffffffd2;
       font-size: 18px;
       font-family: "Roboto", sans-serif;
-      transition: all 5s ease; }
+      transition: all 0.6s ease;
+      display: block;
+      text-align: center;
+      padding: 10px; }
     header nav a:hover {
       text-decoration: none;
       color: #ffffff; }
+
+footer {
+  padding: 20px 0;
+  background: #E7E7E7; }
+  footer p {
+    font-weight: 600;
+    text-align: center; }
+  footer .redes-sociales {
+    font-size: 35px;
+    text-align: center; }
+    footer .redes-sociales a {
+      width: 45px;
+      height: 45px;
+      display: inline-block;
+      margin-left: 5px; }
+      footer .redes-sociales a.face {
+        color: #3b5998; }
+      footer .redes-sociales a.face:hover {
+        background: #ffffffee; }
+      footer .redes-sociales a.you {
+        color: #ff0000; }
+      footer .redes-sociales a.you:hover {
+        background: #ffffffee; }
+      footer .redes-sociales a.what {
+        color: #25d366; }
 
 @media (max-width: 768px) {
   header .contenedor-logo-redes {
@@ -85,7 +112,10 @@ header {
         grid-template-columns: 90% 10%; }
     header .container .redes-sociales {
       display: block; }
-    header nav {
-      display: block !important; } }
+    header nav .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+      header nav .container a {
+        display: inline-block; } }
 
 /*# sourceMappingURL=estilos.css.map */
