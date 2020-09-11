@@ -46,6 +46,9 @@ header {
     header .contenedor-logo-redes form .btn {
       margin-left: -1.4rem;
       background: #F3A847; }
+    header .contenedor-logo-redes .buscador form {
+      display: grid;
+      grid-template-columns: 90% 10%; }
     header .contenedor-logo-redes .redes-sociales {
       display: none;
       font-size: 3rem; }
@@ -97,7 +100,10 @@ header {
 
 footer {
   padding: 2rem 0;
-  background: #E7E7E7; }
+  background: #E7E7E7;
+  bottom: 0;
+  position: absolute;
+  width: 100%; }
   footer p {
     font-weight: 600;
     text-align: center; }
@@ -120,15 +126,14 @@ footer {
       footer .redes-sociales a.what {
         color: #25d366; }
 
+/* EQUIPOS MOVILES */
 @media (max-width: 768px) {
   header .contenedor-logo-redes {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     justify-items: auto;
-    column-gap: 1rem; }
-    header .contenedor-logo-redes .buscador form {
-      display: grid;
-      grid-template-columns: 90% 10%; } }
+    column-gap: 1rem; } }
+/* EQUIPOS IPAD  */
 @media (min-width: 768px) {
   header {
     /*Menu Movil */ }
@@ -151,5 +156,9 @@ footer {
       grid-template-columns: repeat(3, 1fr); }
       header nav .container a {
         display: inline-block; } }
+/* EQUIPOS DESKTOP */
+ *
+ * @media (min-width: 1024px)
+ *     header  */
 
 /*# sourceMappingURL=estilos.css.map */
