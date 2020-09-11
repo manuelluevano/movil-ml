@@ -39,8 +39,10 @@ header {
   /*Menu Movil */ }
   header .contenedor-logo-redes {
     padding: 10px 0; }
-    header .contenedor-logo-redes .logo img {
-      width: 60px; }
+    header .contenedor-logo-redes .logo {
+      text-align: center; }
+      header .contenedor-logo-redes .logo img {
+        width: 60px; }
     header .contenedor-logo-redes form .btn {
       margin-left: -14px;
       background: #F3A847; }
@@ -71,11 +73,9 @@ header {
   header .menu-movil {
     width: 50px;
     display: block;
-    float: right;
-    text-align: right;
     margin-top: 5px; }
     header .menu-movil span {
-      height: 6px;
+      height: 5px;
       margin-bottom: 6px;
       background-color: #ffffff;
       display: block; }
@@ -124,7 +124,8 @@ footer {
   header .contenedor-logo-redes {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    justify-items: center; }
+    justify-items: auto;
+    column-gap: 10px; }
     header .contenedor-logo-redes .buscador form {
       display: grid;
       grid-template-columns: 90% 10%; } }
