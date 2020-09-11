@@ -136,11 +136,14 @@ footer {
       display: none; }
     header .contenedor-logo-redes {
       display: grid;
-      grid-template-columns: 20% 40% 40%;
-      justify-items: center; }
-      header .contenedor-logo-redes .buscador form {
-        display: grid;
-        grid-template-columns: 90% 10%; }
+      grid-template-columns: 10% 60% 30%;
+      justify-items: auto;
+      column-gap: 20px; }
+      header .contenedor-logo-redes .buscador form input {
+        height: 30px;
+        font-size: 1.6rem; }
+      header .contenedor-logo-redes .buscador form button {
+        height: 30px; }
     header .container .redes-sociales {
       display: block; }
     header nav .container {
