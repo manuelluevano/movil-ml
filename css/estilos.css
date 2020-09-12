@@ -34,6 +34,21 @@ h4 {
 img {
   max-width: 100%; }
 
+.section {
+  padding: 3rem 0; }
+
+.section {
+  font-size: 1.8rem;
+  text-align: center; }
+
+h3::after {
+  content: "";
+  margin: 0 auto;
+  background-image: url(../img/separador.png);
+  height: 3rem;
+  width: 10rem;
+  display: block; }
+
 header {
   background: #131921;
   /*Menu Movil */ }
@@ -119,11 +134,21 @@ main .slideshow {
         font-size: 1.4rem;
         font-family: "open-sans", sans-serif; }
 
+/* Productos */
+.lista-productos .productos .producto {
+  text-align: center;
+  margin-bottom: 3rem; }
+  .lista-productos .productos .producto p {
+    margin: 0;
+    font-family: "helvetica";
+    font-weight: 700; }
+  .lista-productos .productos .producto button {
+    margin-top: 1rem; }
+
 footer {
   padding: 2rem 0;
   background: #E7E7E7;
   bottom: 0;
-  position: absolute;
   width: 100%; }
   footer p {
     font-weight: 600;
