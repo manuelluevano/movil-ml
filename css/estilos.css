@@ -142,7 +142,7 @@ main .slideshow {
     margin: 0;
     font-family: "helvetica";
     font-weight: 700; }
-  .lista-productos .productos .producto button {
+  .lista-productos .productos .producto .btn button {
     margin-top: 1rem; }
 
 footer {
