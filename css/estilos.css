@@ -134,7 +134,7 @@ main .slideshow {
         font-size: 1.4rem;
         font-family: "open-sans", sans-serif; }
 
-/* Productos */
+/* Section Productos */
 .lista-productos .productos .producto {
   text-align: center;
   margin-bottom: 3rem; }
@@ -145,6 +145,7 @@ main .slideshow {
   .lista-productos .productos .producto .btn button {
     margin-top: 1rem; }
 
+/* Secrtion video */
 footer {
   padding: 2rem 0;
   background: #E7E7E7;
@@ -173,6 +174,10 @@ footer {
         color: #25d366; }
 
 /* EQUIPOS MOVILES */
+@media (min-width: 582px) {
+  /* Section video */
+  main .banner-refacciones .video iframe {
+    height: 40rem; } }
 @media (max-width: 768px) {
   header .contenedor-logo-redes {
     display: grid;
