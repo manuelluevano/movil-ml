@@ -143,7 +143,8 @@ main .slideshow {
     font-family: "helvetica";
     font-weight: 700; }
   .lista-productos .productos .producto .btn button {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    padding: 0.6rem 1rem; }
 
 /* Secrtion video */
 footer {
