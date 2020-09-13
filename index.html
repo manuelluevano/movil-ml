@@ -168,39 +168,27 @@
             </div>
         </div>
     </footer>
-    <!-- Whatsapp -->
-    <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=523321476165&amp;text=Hola!&nbsp;me&nbsp;interesa&nbsp;su&nbsp;producto">
-        <i class="fab fa-whatsapp"></i>
-   </a>
+    <!-- callbell -->
+    
 
 
-    <!-- Messenger facebook -->
-    <!-- Load Facebook SDK for JavaScript -->
-        <div id="fb-root"></div>
-        <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-            xfbml            : true,
-            version          : 'v8.0'
-            });
-        };
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <!-- Your Chat Plugin code -->
-        <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="355746321613164"
-        greeting_dialog_display="fade"
-        logged_in_greeting="Hola, ¿En qué te puedo ayudar?"
-        logged_out_greeting="Hola, ¿En qué te puedo ayudar?">
-        </div>
+<!-- Start of Async Callbell Code -->
+<script>
+    window.callbellSettings = {
+      token: "yv45GL3UnEVDCUgmjcvqHq9S"
+    };
+  </script>
+  <script>
+    (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+  </script>
+  <!-- End of Async Callbell Code -->
+  
+  
+  
+    
+  
+  
 
 
 
