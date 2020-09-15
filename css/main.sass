@@ -31,10 +31,63 @@ main
             p
                 margin: 0
                 font-family: 'helvetica'
-                font-weight: 700
+                font-weight: 400
+                font-size: 1.2rem
             .btn
                 button
                     margin-top: 1rem
                     padding: .6rem 1rem
+/* Section Banner Refacciones*/
+.newslatter 
+    position: relative
+    height: auto
+.newslatter::before 
+    background-image: url(../img/banner-refacciones.jpg)
+    content: ''
+.parallax::before 
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background-repeat: repeat
+    background-size: cover
+    background-position: center center
+    background-attachment: fixed
+    filter: brightness(.5)    
+.contenido 
+    position: relative
+    padding: 10rem 0
+    color: #ffffff
+    text-align: center
+.contenido p 
+    font-size: 2rem
+    text-transform: capitalize
+.contenido h3 
+    font-size: 4vw
+    text-transform: uppercase
+    font-family: 'PT Sans', sans-serif
+    font-weight: bold
+.btn-transparente 
+    background: transparent
+    padding: .5rem 5rem
+    transition: background-color .2s
+    font-family: 'Oswald', sans-serif
+    text-transform: uppercase
+    padding: .5rem 2rem
+    text-decoration: none
+    color: #ffffff
+    font-size: 2rem
+    font-weight: normal
+    display: inline-block
+    margin-top: 2rem
+    transition: background-color .3s ease
+    border: 1px solid #fe4918
+.btn-transparente:hover
+    background: #fe4918
+    color: white
+    text-decoration: none
+    transition: background-color .5s
+
 /* Secrtion video */
-.banner-refacciones
+.video-refacciones
