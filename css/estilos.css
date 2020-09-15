@@ -64,30 +64,12 @@ header {
     header .contenedor-logo-redes .buscador form {
       display: grid;
       grid-template-columns: 90% 10%; }
-    header .contenedor-logo-redes .redes-sociales {
+    header .contenedor-logo-redes .carrito-compras {
+      font-size: 3rem;
       display: none;
-      font-size: 3rem; }
-      header .contenedor-logo-redes .redes-sociales a {
-        border-radius: 50%;
-        width: 4.5rem;
-        height: 4.5rem;
-        text-align: center;
-        line-height: 4.5rem;
-        display: inline-block;
-        background: #ffffff;
-        margin-left: 0.5rem; }
-        header .contenedor-logo-redes .redes-sociales a.face {
-          color: #3b5998; }
-        header .contenedor-logo-redes .redes-sociales a.face:hover {
-          background: #ffffffee; }
-        header .contenedor-logo-redes .redes-sociales a.you {
-          color: #ff0000; }
-        header .contenedor-logo-redes .redes-sociales a.you:hover {
-          background: #ffffffee; }
-        header .contenedor-logo-redes .redes-sociales a.what {
-          color: #25d366; }
-        header .contenedor-logo-redes .redes-sociales a.what:hover {
-          background: #ffffffee; }
+      text-align: center; }
+      header .contenedor-logo-redes .carrito-compras a {
+        color: white; }
   header .menu-movil {
     width: 5rem;
     display: block;
@@ -126,7 +108,7 @@ main .slideshow {
       main .slideshow article .contenedor .icons i {
         font-size: 4rem; }
       main .slideshow article .contenedor .icons p {
-        margin: 0.5rem 0 0rem 0;
+        margin: 0.5rem 0 0rem 0rem;
         color: black;
         font-size: 1.7rem;
         font-family: "open-sans", arial; }
@@ -196,12 +178,15 @@ footer {
       grid-template-columns: 10% 60% 30%;
       justify-items: auto;
       column-gap: 2rem; }
-      header .contenedor-logo-redes .buscador form input {
-        height: 3rem;
-        font-size: 1.6rem; }
-      header .contenedor-logo-redes .buscador form button {
-        height: 3rem; }
-    header .container .redes-sociales {
+      header .contenedor-logo-redes .buscador form {
+        display: grid;
+        grid-template-columns: 100% 20%; }
+        header .contenedor-logo-redes .buscador form input {
+          height: 3rem;
+          font-size: 1.6rem; }
+        header .contenedor-logo-redes .buscador form button {
+          height: 3rem; }
+    header .container .carrito-compras {
       display: block; }
     header nav .container {
       display: grid;
