@@ -64,6 +64,12 @@ header {
     header .contenedor-logo-redes .buscador form {
       display: grid;
       grid-template-columns: 90% 10%; }
+    header .contenedor-logo-redes .person {
+      display: none;
+      text-align: center; }
+      header .contenedor-logo-redes .person a {
+        color: #ffffff;
+        font-size: 3rem; }
     header .contenedor-logo-redes .carrito-compras {
       font-size: 3rem;
       display: none;
@@ -175,17 +181,18 @@ footer {
       display: none; }
     header .contenedor-logo-redes {
       display: grid;
-      grid-template-columns: 10% 60% 30%;
-      justify-items: auto;
-      column-gap: 2rem; }
+      grid-template-columns: 20% 65% 15% 0%;
+      justify-items: auto; }
       header .contenedor-logo-redes .buscador form {
         display: grid;
-        grid-template-columns: 100% 20%; }
+        grid-template-columns: 90% 10%; }
         header .contenedor-logo-redes .buscador form input {
           height: 3rem;
           font-size: 1.6rem; }
         header .contenedor-logo-redes .buscador form button {
           height: 3rem; }
+    header .container .person {
+      display: block; }
     header .container .carrito-compras {
       display: block; }
     header nav .container {
